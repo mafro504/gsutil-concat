@@ -3,15 +3,12 @@
 ##########################################################################################
 
 #CONSTANTS. PLEASE UPDATE TO MATCH THE DIRECTORY LOCATION AND FILE NAME OF YOUR FILES IN GCS
-MY_PROJECT = 'twttr-mia-amp-samba-dev' #uncomment the relevant project name as needed
-#MY_PROJECT = 'twttr-mia-pulsar-prod'
-BUCKET_ = 'sambadata' #uncomment the relevant bucket as needed
-#BUCKET_ = 'pulsardata'
-VENDOR_ = 'Samba' #uncomment the relevant bucket as needed
-#VENDOR_ = 'Pulsar'
-SHOWNAME_ = 'XXXXXXXXX' #for pulsar, enter campaign name here
+MY_PROJECT = 'xxx-xxxx-xxx-xx' #enter BigQuery project name
+BUCKET_ = 'xxxxxxx' #enter highest level GCS bucket name of where your files are stored
+VENDOR_ = 'Samba' #enter next level GCS bucket name of where your files are stored
+SHOWNAME_ = 'XXXXXXXXX' 
 QUARTER_ = '2021Q1'
-FILETYPE_ = 'controltest' #update to controltest, earned, cohort1, cohort2, cohort3, or cohort4 as needed
+FILETYPE_ = 'controltest' 
 ADVERTISER_ = 'XXX'
 START_FILE = 'YYYYMMDD' 
 END_FILE = 'YYYYMMDD'
